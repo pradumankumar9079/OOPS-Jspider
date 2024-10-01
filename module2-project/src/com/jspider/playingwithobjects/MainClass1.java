@@ -1,16 +1,18 @@
 package com.jspider.playingwithobjects;
 
-// Playing With Objects means passing and returning objects
 import java.util.Scanner;
+
+// Playing With Objects means passing and returning objects
 
 class Employee {
 	int eId;
 	double ctc;
 
-	Employee(int a, double d) {
-		eId = a;
-		ctc = d;
+	public Employee(int eId, double ctc) {
+		this.eId = eId;
+		this.ctc = ctc;
 	}
+
 }
 
 class EmployeeUtility {

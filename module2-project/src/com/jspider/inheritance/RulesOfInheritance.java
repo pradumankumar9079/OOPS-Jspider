@@ -1,20 +1,44 @@
 package com.jspider.inheritance;
 
-class Alpha {
-	int a = 10;
+// Rules of Inheritance
+class Delta {
 
-	void play() {
-		System.out.println("Executing Aplha()....");
+	// point a) Private
+	private void test() {
+		System.out.println("Executing Test().........");
 	}
 }
 
-class Beta extends Alpha {
-	int b = 20;
-
-	void send() {
-		System.out.println("Executing Send()....");
+class Example extends Delta {
+	// point b) Static
+	static void disp() {
+		System.out.println("Executing Disp().........");
 	}
 }
+
+/*-----------------------------------------------------------------*/
+// Final class is not add anything after declaring it final
+//The type Example1 cannot subclass the final class Gamma CTE
+//
+//final class Gamma {
+//
+//}
+//
+//class Example1 extends Gamma{ // we can Declare Final here
+//	
+//}
+
+// final variable or method can be accessed from child class
+/*-----------------------------------------------------------------*/
 
 public class RulesOfInheritance {
+	public static void main(String[] args) {
+		Example ex = new Example();
+		// it's Private can't be Accessed
+		// ex.test();
+
+		// Even though we are able to access it's not inheritance(Static Member)
+//		ex.disp();
+
+	}
 }
