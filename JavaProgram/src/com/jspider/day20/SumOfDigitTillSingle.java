@@ -6,8 +6,11 @@ import java.util.Scanner;
 public class SumOfDigitTillSingle {
 	static int sumOfDigit(int n) {
 		int sum = 0;
+		// it's Recommanded to create rem variable outside
+		// becoz here it will get created only one time
+		int rem = 0;
 		while (n > 0) {
-			int rem = n % 10;
+			rem = n % 10;
 			sum += rem;
 			n /= 10;
 		}
