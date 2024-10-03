@@ -7,7 +7,7 @@ class Amazon {
 	}
 
 	Amazon(double fees) {
-		this();// Dry Principle Use3d
+		this();// Dry Principle Used
 		System.out.println("Code to Initialize Prime Features");
 	}
 }
