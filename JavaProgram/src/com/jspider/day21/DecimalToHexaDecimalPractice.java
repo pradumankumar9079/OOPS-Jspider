@@ -2,15 +2,8 @@ package com.jspider.day21;
 
 import java.util.Scanner;
 
-//Important
-// Decimal To HexaDecimal 
-//ASCII (American Standard Code for Information Interchange) character set includes 128 characters. 
-//A-Z--> 65 to 90
-//a-z--> 97 to 122
-//0-9--> 48 to 57
-// Other than this Range Special Character
-// 31 --1F
-public class DecimalToHexaDecimal {
+// 107-->6B
+public class DecimalToHexaDecimalPractice {
 	static void decToHex(int dec) {
 		String hex = "";
 		while (dec > 0) {

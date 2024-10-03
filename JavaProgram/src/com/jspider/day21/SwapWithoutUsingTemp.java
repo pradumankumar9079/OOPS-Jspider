@@ -8,9 +8,11 @@ public class SwapWithoutUsingTemp {
 		System.out.println("Before Swap: ");
 		System.out.print(a + " " + b);
 		System.out.println();
+		/********* Remember this *****/
 		a = a + b;// a=10+20=30
 		b = a - b;// b=30-20=10// first perform this(Order matter Here)
 		a = a - b;// a=30-10=20// than this
+		/***************************/
 		System.out.println("After Swap: ");
 		System.out.print(a + " " + b);
 	}
