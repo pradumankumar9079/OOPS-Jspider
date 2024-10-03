@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 //Important
 // Decimal To HexaDecimal 
-//ASCII (American Standard Code for Information Interchange) character set includes 128 characters. 
+//ASCII (American Standard Code for Information Interchange) character set includes 128 characters. 0 to 127 uses unicode first 128 same as ASCII
 //A-Z--> 65 to 90
 //a-z--> 97 to 122
 //0-9--> 48 to 57
