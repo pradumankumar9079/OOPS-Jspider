@@ -2,6 +2,7 @@ package com.alpha.day11function;
 
 import java.util.Scanner;
 
+//Eg: 110-->6, 1010-->10
 public class BinaryToDecimal19 {
 	static void binToDec(int bin) {
 		int dec = 0;
@@ -20,5 +21,6 @@ public class BinaryToDecimal19 {
 		int bin = sc.nextInt();
 
 		binToDec(bin);
+
 	}
 }

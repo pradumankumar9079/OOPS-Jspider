@@ -15,7 +15,9 @@ public class DecimalToHexaDecimal {
 		String hex = "";
 		while (dec > 0) {
 			int rem = dec % 16;
+			// Handling Reminder >9 or <9
 			if (rem > 9) {
+				// Explicit TypeCasting int to char
 				hex = (char) (rem + 55) + hex;
 			} else {
 				hex = rem + hex;
