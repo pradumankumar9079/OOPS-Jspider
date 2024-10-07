@@ -32,7 +32,7 @@ public class BinaryToDecimal {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter Binary Number: ");0
+		System.out.println("Enter Binary Number: ");
 //		int bin = sc.nextInt();
 		String bin = sc.nextLine();
 
