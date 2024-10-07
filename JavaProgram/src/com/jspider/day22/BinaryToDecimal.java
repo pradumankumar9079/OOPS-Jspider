@@ -1,3 +1,4 @@
+
 package com.jspider.day22;
 
 import java.util.Scanner;
@@ -31,13 +32,13 @@ public class BinaryToDecimal {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter Binary Number: ");
+		System.out.println("Enter Binary Number: ");0
 //		int bin = sc.nextInt();
 		String bin = sc.nextLine();
 
 		boolean flag = true;
 		for (int i = 0; i < bin.length(); i++) {
-			if (!(bin.charAt(i) == '0' || bin.charAt(i) == '1')) {
+			if (bin.charAt(i) != '0' && bin.charAt(i) != '1') {
 				flag = false;
 				break;
 			}
