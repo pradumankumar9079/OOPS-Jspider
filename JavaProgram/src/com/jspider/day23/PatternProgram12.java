@@ -1,6 +1,9 @@
 package com.jspider.day23;
 
 /*
+ * for pattern program
+ * ask how many column in each row
+ * than ask row wise or column wise we are printing same value
 1 
 1 2 
 1 2 3 
