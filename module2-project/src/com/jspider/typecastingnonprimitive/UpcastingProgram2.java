@@ -29,9 +29,9 @@ public class UpcastingProgram2 {
 		System.out.println(obj.a);
 		obj.test();
 
-		// System.out.println(obj.b);// Not Possible Superclass is still not able to
-		// Access Subclass Properties
-		// obj.b;// Not possible
+		// System.out.println(obj.b);
+		// Not Possible Superclass is not able to Access Subclass Properties obj.b Not
+		// Possible
 
 	}
 }

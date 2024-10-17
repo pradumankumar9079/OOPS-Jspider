@@ -1,4 +1,4 @@
-package com.jspider.polymorphism7;
+package com.jspider.polymorphismcompiletime;
 
 //-->Refer Note for extra point and understanding
 class Flipkart {

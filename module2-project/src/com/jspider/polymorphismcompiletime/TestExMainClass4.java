@@ -1,4 +1,4 @@
-package com.jspider.polymorphism7;
+package com.jspider.polymorphismcompiletime;
 
 class TestScript {
 	void test(int a) {

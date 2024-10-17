@@ -1,6 +1,6 @@
 package com.jspider.typecastingnonprimitive2;
 
-// we will use this in Advance Javca
+// we will use this in Advance Javac
 class Fruit {
 
 }
@@ -28,7 +28,7 @@ class FruitBasket {
 	}
 }
 
-public class MainClass5 {
+public class MainClass1 {
 	public static void main(String[] args) {
 		Apple a = new Apple();
 		FruitBasket.addToBasket(a); // Internally Upcasting: Apple-->Fruit

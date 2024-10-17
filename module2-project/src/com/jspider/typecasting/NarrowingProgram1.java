@@ -13,5 +13,13 @@ public class NarrowingProgram1 {
 		double val = 5.678;
 		float num = (float) val;// Narrowing : double-->num
 		System.out.println(num);
+
+		// Mine One
+//		 * // char example while revise // where char comes-->before int size 2 bytes
+//		 * like short // it is better to write casting statement for char int ch =
+//		 * 'a';// Widening short ch1 = 'z';// Widening byte ch2 = 'z';// --> Somehow
+//		 * it's Possible-->becoz 65,535 can't hold byte so Narrowing
+//		 * System.out.println(ch); System.out.println(ch1); System.out.println(ch2);
+
 	}
 }

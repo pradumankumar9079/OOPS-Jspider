@@ -22,7 +22,7 @@ class C extends B {
 	}
 }
 
-public class UpcastingMultipleClass {
+public class UpcastingMultipleClassProgram4 {
 
 	public static void main(String[] args) {
 		C c1 = new C();
@@ -38,8 +38,7 @@ public class UpcastingMultipleClass {
 		a1.test();
 		// a1.disp();// Not Possible only Access A or Up
 
-		// or Do this
-
+		// or Do this one liner for C-->A
 		A a2 = new C();
 
 	}

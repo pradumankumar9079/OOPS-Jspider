@@ -6,7 +6,7 @@ public class WideningProgram1 {
 		float f = a; // Widening : int ----->float
 		System.out.println(f);
 
-		long val = 1234567L;
+		long val = 12345674546L;
 		double num = val; // Widening : long-------->double
 		System.out.println(num);
 
