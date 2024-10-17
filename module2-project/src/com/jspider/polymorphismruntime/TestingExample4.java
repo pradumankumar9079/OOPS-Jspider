@@ -16,7 +16,7 @@ class ManualTestEngineer extends TestEngineer {
 class AutomationTestEngineer extends TestEngineer {
 	@Override
 	void test() {
-		System.out.println("Test Script Execution");x
+		System.out.println("Test Script Execution");
 	}
 }
 
