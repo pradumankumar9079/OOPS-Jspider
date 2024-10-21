@@ -21,7 +21,7 @@ package com.jspider.day23;
 ////				} else {
 ////					System.out.print(0 + " ");
 ////				}
-//				System.out.print((i + j) % 2 + "   ");
+//				System.out.print(1-(i + j) % 2 + "   ");
 //			}
 //			System.out.println();
 //		}

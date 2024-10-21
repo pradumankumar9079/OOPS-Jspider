@@ -2,7 +2,7 @@ package com.jspider.day24;
 
 // Number Pyramid
 /*
-     1    
+    1    
    123   
   12345  
  1234567 

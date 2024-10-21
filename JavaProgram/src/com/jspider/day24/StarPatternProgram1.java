@@ -23,6 +23,13 @@ System.out.println();
  * * * * 
 * * * * * 
 */
+/*
+    *
+   **
+  ***
+ ****
+*****
+*/
 public class StarPatternProgram1 {
 	public static void main(String[] args) {
 		int n = 5;
@@ -35,7 +42,7 @@ public class StarPatternProgram1 {
 			for (int k = 1; k <= i; k++) {
 				// Important
 				// if we give one more space here than we will get pyramid
-				System.out.print("* ");
+				System.out.print("*");
 			}
 			System.out.println();
 		}
