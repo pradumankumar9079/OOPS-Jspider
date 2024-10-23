@@ -18,12 +18,20 @@ public class LargestAmongUserEnteredArray2 {
 		}
 
 		// Analyze Large
-		int large = a[0];
+		// Assuming Zero'th index element is biggest and than start comparing from index
+		// 1
+		int big = a[0];
 		for (int i = 1; i < size; i++) {
-			if (a[i] > large)
-				large = a[i];
+			if (a[i] > big)
+				big = a[i];
 		}
-		System.out.println("Largest Number in array is: " + large);
+		System.out.println("Largest Number in array is: " + big);
 
 	}
 }
+
+//Enter Size: 
+//5
+//Enter 5 array elements: 
+//56 47 2231 6653 23346
+//Largest Number in array is: 23346

@@ -18,6 +18,7 @@ public class SmallestAmongUserEnteredArray1 {
 		}
 
 		// Analyze Small
+		// Assuming Zero'th index value is smallest and than start comparing from first
 		int small = a[0];
 		for (int i = 1; i < size; i++) {
 			if (small > a[i])
@@ -27,3 +28,8 @@ public class SmallestAmongUserEnteredArray1 {
 
 	}
 }
+//Enter Size: 
+//5
+//Enter 5 array elements: 
+//23 34 341 32335 1
+//Smallest Number in array is: 1

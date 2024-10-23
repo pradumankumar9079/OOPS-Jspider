@@ -9,6 +9,7 @@ public class MainClass1 {
 		x[1] = 20;
 		x[2] = 30;
 		x[3] = 40;
+
 		for (int i = 0; i < x.length - 1; i++) {
 			if (i % 2 == 0) {
 				System.out.print(x[i] + " ");
