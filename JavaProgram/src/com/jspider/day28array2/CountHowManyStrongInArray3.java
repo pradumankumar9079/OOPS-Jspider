@@ -52,9 +52,10 @@ public class CountHowManyStrongInArray3 {
 }
 
 //Enter Size: 
-//3
-//Enter 3 array elements: 
+//4
+//Enter 4 array elements: 
+//120
 //145
-//3422
-//134
-//Count of Strong Number is: 1
+//255
+//2
+//Count of Strong Number is: 2
