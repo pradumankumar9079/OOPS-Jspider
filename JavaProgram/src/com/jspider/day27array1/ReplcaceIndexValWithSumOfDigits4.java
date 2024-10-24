@@ -3,7 +3,7 @@ package com.jspider.day27array1;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class ReplcaceIndexValWithSumOfDigitsAssignment1 {
+public class ReplcaceIndexValWithSumOfDigits4 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter size: ");

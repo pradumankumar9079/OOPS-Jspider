@@ -3,7 +3,7 @@ package com.jspider.day28array2;
 import java.util.Scanner;
 
 // WAP to find User Entered Number is Present inside user Entered Array or Not and if found return index or location
-public class SearchUserEnteredPresentInUserEnteredArrayIfFounReturnIndex4 {
+public class SearchUserEnteredPresentInUserEnteredArrayIfFoundReturnIndex4 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter Size: ");

@@ -1,8 +1,8 @@
 package com.jspider.day27array1;
 
-// Look at Not for Array Points
+// Look at Note for Array Points
 // WAP To Print Even Index Elements
-public class MainClass1 {
+public class PrintEvenIndexElement1 {
 	public static void main(String[] args) {
 		int x[] = new int[4];
 		x[0] = 10;

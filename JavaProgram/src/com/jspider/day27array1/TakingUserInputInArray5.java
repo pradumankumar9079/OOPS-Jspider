@@ -3,7 +3,7 @@ package com.jspider.day27array1;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class TakingUserInputInArrayAssignment2 {
+public class TakingUserInputInArray5 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter Size: ");

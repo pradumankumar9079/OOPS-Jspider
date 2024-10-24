@@ -3,7 +3,7 @@ package com.jspider.day29array3;
 import java.util.Arrays;
 
 // Sort array in ascending order
-public class SortArrayElementInAscendingOrder1 {
+public class SortArrayElementAscendingOrder1 {
 	public static void main(String[] args) {
 
 		/************************************************************/
@@ -25,6 +25,8 @@ public class SortArrayElementInAscendingOrder1 {
 			// which is smaller than our current element
 			for (int j = i + 1; j <= x.length - 1; j++) {
 				// Swap two numbers we can also use method for that
+				// but for that pass array and i and j because
+				// if swap variable val inside method it's happened with copy
 				if (x[i] > x[j]) {
 					int temp = x[i];
 					x[i] = x[j];

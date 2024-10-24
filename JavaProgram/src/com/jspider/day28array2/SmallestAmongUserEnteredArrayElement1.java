@@ -3,7 +3,7 @@ package com.jspider.day28array2;
 import java.util.Scanner;
 
 // Print Smallest in user entered Array Element
-public class SmallestAmongUserEnteredArray1 {
+public class SmallestAmongUserEnteredArrayElement1 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter Size: ");
