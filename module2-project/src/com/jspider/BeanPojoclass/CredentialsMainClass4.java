@@ -1,6 +1,9 @@
-package com.jspider.pojoorbeaanclass;
+package com.jspider.BeanPojoclass;
 
-class Credentials {
+import java.io.Serializable;
+
+//in java bean class which is pojo class i am implementing Serializable
+class Credentials implements Serializable {
 	private String username;
 	private String password;
 

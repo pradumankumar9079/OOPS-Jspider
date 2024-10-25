@@ -1,6 +1,9 @@
-package com.jspider.pojoorbeaanclass;
+package com.jspider.BeanPojoclass;
 
-class Person {
+import java.io.Serializable;
+
+//in java bean class which is pojo class i am implementing Serializable                                                                                                                  
+class Person implements Serializable {
 	private int age;
 
 	public int getAge() {

@@ -1,6 +1,9 @@
-package com.jspider.pojoorbeaanclass;
+package com.jspider.BeanPojoclass;
 
-class Account {
+// in java bean class which is pojo class i am implementing Serializable
+import java.io.Serializable;
+
+class Account implements Serializable {
 	private long accountNumber;
 	private double accountBalance;
 

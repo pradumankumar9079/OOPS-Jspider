@@ -1,7 +1,10 @@
-package com.jspider.pojoorbeaanclass;
+package com.jspider.BeanPojoclass;
 
+import java.io.Serializable;
+
+//in java bean class which is pojo class i am implementing Serializable
 // To generate right click source
-class Employee {
+class Employee implements Serializable {
 	private int eId;
 	private double ctc;
 
