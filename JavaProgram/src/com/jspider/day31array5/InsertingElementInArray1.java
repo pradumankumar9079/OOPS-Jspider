@@ -48,7 +48,7 @@ public class InsertingElementInArray1 {
 			// after that i+1 // although it will not increase real i value
 			if (i < index) {
 				newArr[i] = a[i];
-			} else {
+			} else if (i >= index) {
 				newArr[i + 1] = a[i];
 			}
 		}

@@ -1,8 +1,8 @@
 /**
- * 
+ *
  */
 /**
- * 
+ *
  */
 module practicemodule2 {
 }

@@ -3,7 +3,7 @@ package com.jspider.day31array5;
 import java.util.Arrays;
 
 //Delete an element from an Array
-public class DeleteElementInArray2 {
+public class Practice2 {
 	public static void main(String[] args) {
 		int a[] = { 1, 2, 3, 4, 5 };
 		int index = 2;

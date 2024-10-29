@@ -1,34 +1,29 @@
 package com.jspider.day31array5;
 
-// Print Missing Element in Array
-public class PrintMissingElementInArray3 {
+// find missing number in an array
+public class Practice3 {
 	public static void main(String[] args) {
-		int[] a = { 2, 3, 7, 8, 3 };
+		int[] a = { 1, 2, 9, 8, 4 };
 
 		int big = a[0], small = a[0];
 		for (int i = 0; i <= a.length - 1; i++) {
-			if (a[i] > big) {
+			if (big < a[i])
 				big = a[i];
-			}
-			if (a[i] < small) {
+			if (small > a[i])
 				small = a[i];
-			}
 		}
 
-		// small->1 big->10 1 to 10
 		for (int i = small; i <= big; i++) {
-			if (isMissing(i, a)) {
+			if (isMissing(a, i)) {
 				System.out.print(i + " ");
 			}
 		}
-
 	}
 
-	private static boolean isMissing(int n, int[] a) {
+	private static boolean isMissing(int[] a, int num) {
 		for (int i = 0; i <= a.length - 1; i++) {
-			if (a[i] == n) {
+			if (num == a[i])
 				return false;
-			}
 		}
 		return true;
 	}
