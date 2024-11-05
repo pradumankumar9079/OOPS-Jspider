@@ -26,9 +26,17 @@ public class ReverseArray3 {
 	}
 
 	private static void reverse(int[] x) {
-		int firstIndex = 0;
-		int lastIndex = x.length - 1;
-		while (firstIndex <= lastIndex) {
+		// Two Pointer Approach --> Optimal one
+		int firstIndex = 0;// for zero'th index
+		int lastIndex = x.length - 1; // for last index
+
+		// don't know how many iteration will happened here
+		// if we have 4 element number of iteration will be 2(Half)
+		// that's why it is optimal way
+
+		// in case of odd number of element middle element swap with same element so not
+		// recommended to take equal to
+		while (firstIndex < lastIndex) {
 			// don't make swap method it will not swap here it will swap in method always
 			int temp = x[firstIndex];
 			x[firstIndex] = x[lastIndex];

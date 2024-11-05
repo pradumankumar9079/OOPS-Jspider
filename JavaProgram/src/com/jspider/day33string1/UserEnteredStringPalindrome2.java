@@ -7,7 +7,7 @@ public class UserEnteredStringPalindrome2 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter String: ");
-		String s = sc.nextLine();
+		String s = sc.nextLine();// this is string object
 
 		if (isPalindrome(s)) {
 			System.out.println("Is Palindrome");
@@ -27,11 +27,12 @@ public class UserEnteredStringPalindrome2 {
 //		return s.equals(sb.toString());
 		/***************************************************/
 
-		/***************************************************/
+		/********************** More iteration *****************/
 		// Using string literal
 		// do not assign null it's also a value
 		String rev = "";
 		for (int i = s.length() - 1; i >= 0; i--) {
+			// Explore valuOf method-->Later on
 			rev = rev + s.charAt(i);
 			// can't do rev = rev.concat(s.charAt(i)) because arg is character here
 //			concat only take string
@@ -40,6 +41,8 @@ public class UserEnteredStringPalindrome2 {
 
 		// use string1.equals(string2) only don't use == (else wrong answer)
 		return rev.equals(s);
+		/***************************************************/
+		// Check next File For Method2
 
 	}
 }
