@@ -44,3 +44,15 @@ public class ReplcaceIndexValWithSumOfDigits4 {
 //Enter 4 Array Elements: 
 //5767768 6 87 567 5454554
 //[46, 6, 15, 18]
+
+/*****************************************************************/
+//Copy of Value (Primitives): Java copies the actual value of the variable. Changes inside the method don’t affect the original variable.
+//Copy of Reference (Objects): Java copies the reference to the object, not the object itself. Modifications to the object's content affect the original object, but reassigning the reference inside the method doesn’t affect the original reference.
+//This behavior is sometimes referred to as "pass-by-value of the reference" for objects
+/****************************************************************/
+
+/****************************************************************/
+//Strings Are Passed by Value (Copy of Reference): Java passes a copy of the reference to the String.
+//Immutability: Since String objects are immutable, any modification creates a new String object. The original String object cannot be changed.
+//Reassignment of String Reference: Reassigning the String inside the method only changes the local reference, not the original reference outside the method.
+/*****************************************************************/
