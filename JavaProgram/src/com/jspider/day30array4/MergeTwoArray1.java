@@ -29,8 +29,8 @@ public class MergeTwoArray1 {
 
 		/*************************************************/
 		// Hardcode
-//		int a[] = { 1, 2, 3, 4 };
-//		int b[] = { 5, 6, 7, 8 };
+		// int a[] = { 1, 2, 3, 4 };
+		// int b[] = { 5, 6, 7, 8 };
 		/*************************************************/
 
 		// Accepting that array and than printing it
