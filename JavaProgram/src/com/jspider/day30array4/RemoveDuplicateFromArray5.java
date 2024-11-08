@@ -1,7 +1,7 @@
 package com.jspider.day30array4;
 
 // Complete it something like count we have to play with
-// Remove Duplicate From Array
+// Remove Duplicate From Array-->Print it only
 public class RemoveDuplicateFromArray5 {
 	public static void main(String[] args) {
 		int a[] = { 10, 20, 30, 10 };

@@ -1,44 +1,28 @@
 package com.jspider.day26;
 
-import java.util.Scanner;
-
-/*
-Enter Number: 
-5
-    * 
-  *   * 
-*       * 
-  *   * 
-    * 
-*/
-public class Practice1 {
+class Practice1 {
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter n Value: ");
-		int n = sc.nextInt();
-
+		// Triangle
+		int n = 5;
 		int sp = n / 2;
 		int st = 1;
 		for (int i = 1; i <= n; i++) {
-			for (int j = 1; j <= sp; j++) {
-
+			for (int k = 1; k <= sp; k++) {
 				System.out.print("  ");
 			}
-			for (int k = 1; k <= st; k++) {
-				// Focus Here
-				if (k == 1 || k == st) {
-					System.out.print("* ");
-				} else {
-					System.out.print("  ");
-				}
+
+			for (int j = 1; j <= st; j++) {
+				System.out.print("*" + " ");
 			}
+
 			if (i <= n / 2) {
-				st += 2;
 				sp--;
+				st = st + 2;
 			} else {
-				st -= 2;
 				sp++;
+				st = st - 2;
 			}
+
 			System.out.println();
 		}
 	}

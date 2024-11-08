@@ -19,8 +19,7 @@ public class FrequencyOfEachInArray2 {
 		frequency(x);
 	}
 
-	// j==0 won't work here j=i+1 will work
-	// in that case if it work it will print duplicate occurrence as well
+	// j==0 will work here but put i!=j
 	private static void frequency(int[] x) {
 		for (int i = 0; i <= x.length - 1; i++) {
 			int cnt = 1;
