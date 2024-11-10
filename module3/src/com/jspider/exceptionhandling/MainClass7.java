@@ -13,7 +13,7 @@ class HelloBro {
 //	}
 }
 
-public class MainLcass7 {
+public class MainClass7 {
 
 	static void instantiate() throws ClassNotFoundException, IllegalAccessException, InstantiationException {
 		HelloBro h = (HelloBro) Class.forName("com.jspider.exceptionhandling.HelloBro").newInstance();
