@@ -1,10 +1,11 @@
 package com.jspider.day38string6;
 
 // WAP To Reverse a Sentence-->Sir Way
+//In Java, when split(" ") encounters multiple consecutive spaces, it doesn’t include them as individual spaces in the output array. Instead, it inserts empty strings ("") to indicate "missing" elements where there were additional delimiters but no actual characters between them. This is due to how split() processes the delimiters:
+
 public class ReverseASentenceSirWay2 {
 	public static void main(String[] args) {
 		String s = "ram  is good";
-
 		// We Are Spliting the String based on the String
 		String[] x = s.split(" ");
 
