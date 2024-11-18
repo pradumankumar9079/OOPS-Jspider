@@ -1,4 +1,4 @@
-package com.jspider.thread;//1
+package com.jspider.thread1;//1
 
 // By Extending Thread Class
 class DemoThread extends Thread {

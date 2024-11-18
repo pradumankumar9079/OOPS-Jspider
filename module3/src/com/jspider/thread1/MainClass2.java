@@ -1,4 +1,4 @@
-package com.jspider.thread;
+package com.jspider.thread1;
 
 // By Implementing Runnable Interface
 class SampleThread implements Runnable {// 1

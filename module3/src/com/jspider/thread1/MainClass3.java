@@ -1,4 +1,4 @@
-package com.jspider.thread;
+package com.jspider.thread1;
 
 class MyThread implements Runnable {
 
