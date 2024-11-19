@@ -1,4 +1,4 @@
-package com.jspider.day42DoWhileLoopForEach1;
+package com.jspider.day42dowhileforeachloop1;
 
 // Iterate Array Using for-each
 // Eg:- For for-each Loop only for Collection and Arrays

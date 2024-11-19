@@ -1,4 +1,4 @@
-package com.jspider.day42DoWhileLoopForEach1;
+package com.jspider.day42dowhileforeachloop1;
 
 // WAP To Print Even Number Between 1 to 20 Using Do While
 // While Loop is Entry Control Loop 
