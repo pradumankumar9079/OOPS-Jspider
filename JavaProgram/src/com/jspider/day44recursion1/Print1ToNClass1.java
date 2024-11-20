@@ -1,4 +1,4 @@
-package com.jspider.day44recursion;
+package com.jspider.day44recursion1;
 
 // WAP To Print1ToN
 public class Print1ToNClass1 {

@@ -1,4 +1,4 @@
-package com.jspider.day44recursion;
+package com.jspider.day44recursion1;
 
 // WAP To PrintNTo1 --> BackTracking 
 public class PrintNTo1Class2 {
