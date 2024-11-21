@@ -1,4 +1,4 @@
-package com.jspider.day44recursion1;
+package com.jspider.day45recursion2;
 
 public class CountNumberOfDigitUsingRecursion2 {
 	static int cnt = 0;

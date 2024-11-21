@@ -3,7 +3,7 @@ package com.jspider.day38string6;
 import java.util.HashSet;
 
 // WAP To Check String is Panagram or Not
-// Definition: - it should Contain all 26 Character at least Onece
+// Definition: - it should Contain all 26 Character at least Once
 // Using HashSet
 
 public class CheckStringisPanagram1 {

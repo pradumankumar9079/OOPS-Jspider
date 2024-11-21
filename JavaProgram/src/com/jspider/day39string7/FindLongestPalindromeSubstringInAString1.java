@@ -31,12 +31,12 @@ public class FindLongestPalindromeSubstringInAString1 {
 					if (sub.length() > len) {
 						len = sub.length();
 						longest = sub;
-//						System.out.println(sub);
+						System.out.println(longest);
 					}
 				}
 			}
 		}
-		System.out.println(longest);
+		// System.out.println(longest);
 	}
 
 	private static boolean isPalindrome(String sub) {
