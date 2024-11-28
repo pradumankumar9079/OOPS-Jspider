@@ -5,7 +5,7 @@ import java.util.Scanner;
 /*
 Enter Number: 
 7
-     1 
+      1 
     0 0 0 
   1 1 1 1 1 
 0 0 0 0 0 0 0 
