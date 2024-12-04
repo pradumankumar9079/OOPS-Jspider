@@ -1,4 +1,4 @@
-package arrayofobject;
+package arrayofobjectday1;
 
 // Here we Are Creating Array of Object Assign and Access Using toString and Tabular Format(SQL Like)
 
