@@ -1,22 +1,22 @@
-package com.jspider.filereading5;
+package com.jspider.filehandlingcrud1_1;
 
 import java.io.File;
 import java.io.IOException;
 
-public class ActivityUseEverything2_1 {
+public class CreateFile2 {
 	public static void main(String[] args) {
-		File ref = new File("/home/kali/Desktop/FILEIO/ACTIVITY/c.txt");
+		File ref = new File("/home/kali/Desktop/FILEIO/Demo.txt");
 		boolean flag = ref.exists();
+
 		if (flag == false) {
 			try {
 				ref.createNewFile();
-				System.out.println("File Created");
 			} catch (IOException e) {
+				System.out.println("File Created");
 				e.printStackTrace();
 			}
 		} else {
-			System.out.println("File Already Exist");
+			System.out.println("File Already Exits");
 		}
-
 	}
 }

@@ -1,4 +1,4 @@
-package com.jspider.filehandlingwritingandreading2;
+package com.jspider.filehandlingwriting1_2;
 
 import java.io.FileWriter;
 import java.io.IOException;

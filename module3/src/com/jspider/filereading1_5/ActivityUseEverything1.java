@@ -1,4 +1,4 @@
-package com.jspider.filereading5;
+package com.jspider.filereading1_5;
 
 import java.io.File;
 import java.io.IOException;

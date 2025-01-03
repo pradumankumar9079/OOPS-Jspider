@@ -1,4 +1,4 @@
-package com.jspider.bufferedwriterfilehandling3;
+package com.jspider.bufferedwriterfilehandling1_3;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

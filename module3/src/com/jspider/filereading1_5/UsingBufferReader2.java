@@ -1,4 +1,4 @@
-package com.jspider.filereading5;
+package com.jspider.filereading1_5;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -15,6 +15,7 @@ public class UsingBufferReader2 {
 				val = ref.readLine();
 			}
 		} catch (IOException e) {
+
 			e.printStackTrace();
 		} finally {
 			try {
