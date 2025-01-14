@@ -27,7 +27,9 @@ public class MainClass2 {
 //We we not get output according to our expectation Always
 //Program starts
 //main thread
+//main thread//main thread
 //main thread
+
 //main thread
 //main thread
 //main thread
