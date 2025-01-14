@@ -11,7 +11,7 @@ public class UsinfFileReader1 {
 	public static void main(String[] args) {
 		FileReader ref = null;
 		try {
-			ref = new FileReader("/home/kali/Desktop/FILEIO/Game.txt");
+			ref = new FileReader("/home/kali/Desktop/Lalu/raja.txt");
 			int val = ref.read();// This is Unicode Character By Character
 			while (val != -1) {
 				System.out.print((char) val);

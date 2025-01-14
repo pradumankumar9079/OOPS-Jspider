@@ -4,7 +4,7 @@ import java.io.File;
 
 public class File2 {
 	public static void main(String[] args) {
-		File f = new File("/home/kali/Desktop/Lalu");
+		File f = new File("/home/kali/Desktop/Raj");
 		boolean flag = f.exists();// Exist
 
 		// List --> List All File or Folder Containing in that Directory

@@ -33,7 +33,7 @@ public class Serial1 {
 		FileOutputStream fos = null;
 		ObjectOutputStream oos = null;
 		try {
-			fos = new FileOutputStream("/home/kali/Desktop/Lalu/raja.txt");
+			fos = new FileOutputStream("/home/kali/Desktop/Raj/raja.txt");
 			oos = new ObjectOutputStream(fos);
 			oos.writeObject(e1);
 		} catch (IOException e) {
@@ -50,7 +50,7 @@ public class Serial1 {
 		FileInputStream fis = null;
 		ObjectInputStream ois = null;
 		try {
-			fis = new FileInputStream("/home/kali/Desktop/Lalu/raja.txt");
+			fis = new FileInputStream("/home/kali/Desktop/Raj/raja.txt");
 			ois = new ObjectInputStream(fis);
 			Employee e2 = (Employee) ois.readObject();
 			System.out.println(e2.id);

@@ -12,7 +12,7 @@ public class FileWrite3 {
 		PrintWriter pw = null;
 		try {
 			/*******************************/
-//			fw = new FileWriter("/home/kali/Desktop/Lalu/raja.txt");
+//			fw = new FileWriter("/home/kali/Desktop/Raj/raja.txt");
 //
 //			fw.write("Raja\n");
 //			fw.write("\n");
@@ -25,7 +25,7 @@ public class FileWrite3 {
 			/*******************************/
 
 			/*******************************/
-//			bf = new BufferedWriter(new FileWriter("/home/kali/Desktop/Lalu/raja.txt"));// --> focus
+//			bf = new BufferedWriter(new FileWriter("/home/kali/Desktop/Raj/raja.txt"));// --> focus
 //
 //			bf.write("Raja Bhai");
 //			bf.newLine();// Introduced
@@ -38,7 +38,7 @@ public class FileWrite3 {
 			/*******************************/
 
 			/*******************************/
-			pw = new PrintWriter("/home/kali/Desktop/Lalu/raja.txt");// --> again n need
+			pw = new PrintWriter("/home/kali/Desktop/Raj/raja.txt");// --> again n need
 			pw.println("Raja Bhai Hai Mera Yaar");
 			pw.println();// Introduced
 			pw.println(66);// getting Integer

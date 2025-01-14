@@ -8,7 +8,7 @@ public class UsingBufferReader2 {
 	public static void main(String[] args) {
 		BufferedReader ref = null;
 		try {
-			ref = new BufferedReader(new FileReader("/home/kali/Desktop/FILEIO/Game.txt"));
+			ref = new BufferedReader(new FileReader("/home/kali/Desktop/Lalu/raja.txt"));
 			String val = ref.readLine();
 			while (val != null) {
 				System.out.println(val);
