@@ -1,4 +1,4 @@
-package test;
+package oops;
 
 //class Demo extends Thread {
 //	@Override
