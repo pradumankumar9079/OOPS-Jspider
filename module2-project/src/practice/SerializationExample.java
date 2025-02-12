@@ -7,6 +7,7 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
 
+// Serialization Example
 class Employee implements Serializable {
 	int id;
 	transient double sal;

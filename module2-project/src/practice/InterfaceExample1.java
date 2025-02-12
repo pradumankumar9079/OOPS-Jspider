@@ -1,5 +1,6 @@
 package practice;
 
+// full Abstraction Example
 interface Shape {
 	void draw();
 }

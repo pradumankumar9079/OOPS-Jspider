@@ -1,5 +1,6 @@
 package practice;
 
+// Singleton Class Example
 class Connection {
 	private Connection() {
 

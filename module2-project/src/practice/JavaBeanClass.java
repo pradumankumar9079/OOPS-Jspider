@@ -2,6 +2,7 @@ package practice;
 
 import java.io.Serializable;
 
+// Java Bean Class Example(100% Encapsulation)
 class Person implements Serializable {
 	int age;
 

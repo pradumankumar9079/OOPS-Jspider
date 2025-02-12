@@ -1,5 +1,6 @@
 package practice;
 
+// Partial Abstraction
 abstract class HotStar {
 	void login() {
 
@@ -26,7 +27,7 @@ class HotStarPremium extends HotStar {
 	}
 }
 
-public class MainClass1 {
+public class AbstractClassExample1 {
 	public static void main(String[] args) {
 		HotStar hs;
 		hs = new HotStarPremium();

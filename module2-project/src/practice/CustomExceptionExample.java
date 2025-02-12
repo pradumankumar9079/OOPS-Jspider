@@ -1,5 +1,6 @@
 package practice;
 
+// Custom Exception Example 
 class CustomException extends Exception {
 	public String toString() {
 		return "Got Exception";

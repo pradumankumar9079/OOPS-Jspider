@@ -1,5 +1,6 @@
 package practice;
 
+//full Abstraction Example
 /******************** Declaration ****************************/
 interface Translator {
 	void translate();
@@ -47,7 +48,7 @@ class GoogleTranslate {
 /************************************************/
 
 /****************** Creating Object ******************************/
-public class MainClass2 {
+public class interfaceExample2 {
 	public static void main(String[] args) {
 		KannadaTranslator kt = new KannadaTranslator();
 		HindiTranslator ht = new HindiTranslator();
